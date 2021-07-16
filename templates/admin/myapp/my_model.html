@@ -1,0 +1,258 @@
+<html lang="en-us"><head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">
+
+
+  <link rel="stylesheet" href="/static/css/admin.css">
+
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/changelists.css">
+
+
+    <script type="text/javascript" src="/admin/jsi18n/"></script>
+
+
+
+
+
+
+
+<script type="text/javascript" src="/static/admin/js/vendor/jquery/jquery.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+<script type="text/javascript" src="/static/admin/js/core.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/static/admin/js/actions.js"></script>
+<script type="text/javascript" src="/static/admin/js/urlify.js"></script>
+<script type="text/javascript" src="/static/admin/js/prepopulate.js"></script>
+<script type="text/javascript" src="/static/admin/js/vendor/xregexp/xregexp.js"></script>
+
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css">
+
+
+<meta name="robots" content="NONE,NOARCHIVE">
+</head>
+
+
+<body class=" app-accounts model-cuspack change-list" data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+
+
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+
+  <h1 id="head">
+    <a href="/admin"><img src="/static/img/logos/black-logo.png" alt="" class="brand_img" height="50" width="300"></a>
+  </h1>
+
+        </div>
+
+
+        <div id="user-tools">
+
+                Welcome,
+                <strong>sngra</strong>.
+
+
+
+                    <a href="/">View site</a> /
+
+
+
+
+
+
+                <a href="/admin/password_change/">Change password</a> /
+
+                <a href="/admin/logout/">Log out</a>
+
+        </div>
+
+
+
+    </div>
+    <!-- END Header -->
+
+<div class="breadcrumbs">
+<a href="/admin/">Home</a>
+› <a href="/admin/accounts/">Accounts</a>
+› Cuspacks
+</div>
+
+
+
+
+
+
+
+    <!-- Content -->
+    <div id="content" class="flex">
+
+        <h1>Select cuspack to change</h1>
+
+  <div id="content-main">
+
+        <ul class="object-tools">
+
+
+
+
+
+  <li>
+
+    <a href="/admin/accounts/cuspack/add/" class="addlink">
+      Add cuspack
+    </a>
+  </li>
+
+
+
+
+        </ul>
+
+
+    <div class="module" id="changelist">
+
+
+<div id="toolbar"><form id="changelist-search" method="get">
+<div><!-- DIV needed for valid HTML -->
+<label for="searchbar"><img src="/static/admin/img/search.svg" alt="Search"></label>
+<input type="text" size="40" name="q" value="" id="searchbar" autofocus="">
+<input type="submit" value="Search">
+
+
+</div>
+</form></div>
+
+
+
+
+
+
+
+
+      <form id="changelist-form" method="post" novalidate=""><input type="hidden" name="csrfmiddlewaretoken" value="qKNPI3ai0gljW3aQ16cxhpH3efcZKxvIqG2WQ8bmjXUm53uiIHMRV3YGDg4PQEg0">
+
+
+
+
+<div class="actions">
+
+
+    <label>Action: <select name="action" required="">
+  <option value="" selected="">---------</option>
+
+  <option value="delete_selected">Delete selected cuspacks</option>
+
+</select></label><input type="hidden" name="select_across" value="0" class="select-across">
+
+
+    <button type="submit" class="button" title="Run the selected action" name="index" value="0">Go</button>
+
+
+
+        <span class="action-counter" data-actions-icnt="6" style="display: inline;">0 of 6 selected</span>
+
+
+
+
+</div>
+
+
+
+
+<div class="results">
+<table id="result_list">
+<thead>
+<tr>
+
+<th scope="col" class="action-checkbox-column">
+
+   <div class="text"><span><input type="checkbox" id="action-toggle"></span></div>
+   <div class="clear"></div>
+</th>
+<th scope="col" class="sortable column-id">
+
+
+
+   <div class="text"><a href="?o=1">ID</a></div>
+   <div class="clear"></div>
+</th>
+<th scope="col" class="sortable column-user">
+
+
+
+   <div class="text"><a href="?o=2">User</a></div>
+   <div class="clear"></div>
+</th>
+<th scope="col" class="sortable column-no_of_cars">
+
+
+
+   <div class="text"><a href="?o=3">No of cars</a></div>
+   <div class="clear"></div>
+</th>
+<th scope="col" class="sortable column-total_cars">
+
+
+
+   <div class="text"><a href="?o=4">Total cars</a></div>
+   <div class="clear"></div>
+</th>
+</tr>
+</thead>
+<tbody>
+
+
+<tr class="row1"><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="11" class="action-select"></td><th class="field-id"><a href="/admin/accounts/cuspack/11/change/">11</a></th><td class="field-user nowrap">akash</td><td class="field-no_of_cars">2</td><td class="field-total_cars">21</td></tr>
+
+
+<tr class="row2"><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="9" class="action-select"></td><th class="field-id"><a href="/admin/accounts/cuspack/9/change/">9</a></th><td class="field-user nowrap">arjun</td><td class="field-no_of_cars">1</td><td class="field-total_cars">1</td></tr>
+
+
+<tr class="row1"><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="8" class="action-select"></td><th class="field-id"><a href="/admin/accounts/cuspack/8/change/">8</a></th><td class="field-user nowrap">ashwin</td><td class="field-no_of_cars">1</td><td class="field-total_cars">1</td></tr>
+
+
+<tr class="row2"><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="7" class="action-select"></td><th class="field-id"><a href="/admin/accounts/cuspack/7/change/">7</a></th><td class="field-user nowrap">akshay</td><td class="field-no_of_cars">0</td><td class="field-total_cars">1</td></tr>
+
+
+<tr class="row1"><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="6" class="action-select"></td><th class="field-id"><a href="/admin/accounts/cuspack/6/change/">6</a></th><td class="field-user nowrap">admin</td><td class="field-no_of_cars">0</td><td class="field-total_cars">9</td></tr>
+
+
+<tr class="row2"><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="4" class="action-select"></td><th class="field-id"><a href="/admin/accounts/cuspack/4/change/">4</a></th><td class="field-user nowrap">amalraju7</td><td class="field-no_of_cars">1</td><td class="field-total_cars">3</td></tr>
+
+</tbody>
+</table>
+</div>
+
+
+
+
+
+
+<p class="paginator">
+
+6 cuspacks
+
+
+</p>
+
+      </form>
+    </div>
+  </div>
+
+
+        <br class="clear">
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+
+
+</body></html>

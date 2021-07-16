@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title %} | Login {% endblock %}
+{% block content %}
+{% load static %}
+
+
+<div class="sub-banner overview-bgi">
+    <div class="container breadcrumb-area">
+        <div class="breadcrumb-areas">
+            <h1>Login To Your Account</h1>
+            <ul class="breadcrumbs">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li class="active">Login</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- Contact section start -->
+<div class="contact-section">
+  <div class="container table-responsive py-5">
+<table class="table table-bordered table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Username</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Role</th>
+
+
+
+    </tr>
+  </thead>
+  <tbody>
+    {% for re in res %}
+    <tr>
+      <th scope="row">{{i}}</th>
+      <td>{{re.username}}</td>
+      <td>{{re.first_name}} {{re.last_name}}</td>
+      <td>{{re.email}}</td>
+      {% if re.is_superuser %}
+      <td>Admin</td>
+
+
+      {% elif re.is_staff %}
+      <td>Staff</td>
+      {% else %}
+      <td>Customer</td>
+      {% endif %}
+
+    </tr>
+    {% endfor %}
+
+  </tbody>
+</table>
+</div>
+
+</div>
+<!-- Contact section end -->
+
+{% endblock %}

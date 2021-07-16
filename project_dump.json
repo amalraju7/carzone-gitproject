@@ -1,0 +1,2996 @@
+[
+{
+    "model": "cars.category",
+    "pk": 1,
+    "fields": {
+        "name": "Sedan/Saloon",
+        "description": "<p>A sedan has four doors and a traditional trunk. Like vehicles in many categories, they&#39;re available in a range of sizes from small (subcompact vehicles like&nbsp;<a href=\"https://www.caranddriver.com/nissan/versa\" target=\"_blank\">Nissan Versa</a>&nbsp;and&nbsp;<a href=\"https://www.caranddriver.com/kia/rio\" target=\"_blank\">Kia Rio</a>) to compacts (<a href=\"https://www.caranddriver.com/honda/civic\" target=\"_blank\">Honda Civic</a>,&nbsp;<a href=\"https://www.caranddriver.com/toyota/corolla\" target=\"_blank\">Toyota Corolla</a>) to mid-size (<a href=\"https://www.caranddriver.com/honda/accord\" target=\"_blank\">Honda Accord</a>,&nbsp;<a href=\"https://www.caranddriver.com/nissan/altima\" target=\"_blank\">Nissan Altima</a>), and full-size (<a href=\"https://www.caranddriver.com/toyota/avalon\" target=\"_blank\">Toyota Avalon</a>,&nbsp;<a href=\"https://www.caranddriver.com/dodge/charger\" target=\"_blank\">Dodge Charger</a>). Luxury brands like Mercedes-Benz and Lexus have sedans in similar sizes as well.</p>"
+    }
+},
+{
+    "model": "cars.category",
+    "pk": 2,
+    "fields": {
+        "name": "Coupe",
+        "description": "<p>A sedan has four doors and a traditional trunk. Like vehicles in many categories, they&#39;re available in a range of sizes from small (subcompact vehicles like&nbsp;<a href=\"https://www.caranddriver.com/nissan/versa\" target=\"_blank\">Nissan Versa</a>&nbsp;and&nbsp;<a href=\"https://www.caranddriver.com/kia/rio\" target=\"_blank\">Kia Rio</a>) to compacts (<a href=\"https://www.caranddriver.com/honda/civic\" target=\"_blank\">Honda Civic</a>,&nbsp;<a href=\"https://www.caranddriver.com/toyota/corolla\" target=\"_blank\">Toyota Corolla</a>) to mid-size (<a href=\"https://www.caranddriver.com/honda/accord\" target=\"_blank\">Honda Accord</a>,&nbsp;<a href=\"https://www.caranddriver.com/nissan/altima\" target=\"_blank\">Nissan Altima</a>), and full-size (<a href=\"https://www.caranddriver.com/toyota/avalon\" target=\"_blank\">Toyota Avalon</a>,&nbsp;<a href=\"https://www.caranddriver.com/dodge/charger\" target=\"_blank\">Dodge Charger</a>). Luxury brands like Mercedes-Benz and Lexus have sedans in similar sizes as well.</p>"
+    }
+},
+{
+    "model": "cars.category",
+    "pk": 3,
+    "fields": {
+        "name": "Sports",
+        "description": "<p>These are the sportiest, hottest, coolest-looking coupes and convertibles&mdash;low to the ground, sleek, and often expensive. They generally are two-seaters, but sometimes have small rear seats as well. Cars like the&nbsp;<a href=\"https://www.caranddriver.com/porsche/911\" target=\"_blank\">Porsche 911</a>&nbsp;and&nbsp;<a href=\"https://www.caranddriver.com/mazda/mx-5-miata\" target=\"_blank\">Mazda Miata</a>&nbsp;are typical sports cars, but you can stretch the definition to include muscle cars like the&nbsp;<a href=\"https://www.caranddriver.com/ford/mustang\" target=\"_blank\">Ford Mustang</a>&nbsp;and&nbsp;<a href=\"https://www.caranddriver.com/dodge/challenger\" target=\"_blank\">Dodge Challenger.</a>&nbsp;Then there are the high-end exotic dream cars with sky-high price tags for the one percent, cars like the&nbsp;<a href=\"https://www.caranddriver.com/ferrari/488\" target=\"_blank\">Ferrari 488 GTB</a>&nbsp;and&nbsp;<a href=\"https://www.caranddriver.com/aston-martin/vantage\" target=\"_blank\">Aston Martin Vantage</a>, which stop traffic with their spaceship looks.</p>"
+    }
+},
+{
+    "model": "cars.category",
+    "pk": 4,
+    "fields": {
+        "name": "Hatchback",
+        "description": "<p>Traditionally, the term &quot;hatchback&quot; has meant a compact or subcompact sedan with a squared-off roof and a rear flip-up hatch door that provides access to the vehicle&#39;s cargo area instead of a conventional trunk. The&nbsp;<a href=\"https://www.caranddriver.com/volkswagen/golf\" target=\"_blank\">Volkswagen Golf</a>&nbsp;and&nbsp;<a href=\"https://www.caranddriver.com/kia/rio\" target=\"_blank\">Kia Rio</a>&nbsp;are two typical hatchbacks. More recently, rear hatches have found their way on to some larger cars, like the&nbsp;<a href=\"https://www.caranddriver.com/audi/a7\" target=\"_blank\">Audi A7&nbsp;</a>and&nbsp;<a href=\"https://www.caranddriver.com/kia/stinger\" target=\"_blank\">Kia Stinger</a>. They look like sedans, but they actually have a steeply raked hatchback that affords easier accessibility to the cargo area and greater carrying capacity than a traditional trunk would.</p>"
+    }
+},
+{
+    "model": "cars.category",
+    "pk": 5,
+    "fields": {
+        "name": "Convertible",
+        "description": "<p>Does the roof retract into the body leaving the passenger cabin open to the elements? If so, it&#39;s a convertible. Most convertibles have a fully powered fabric roof that folds down, but a few have to be lowered by hand. There are also a number of models with a retractable hardtop, as well as several unusual quasi-convertibles (called &quot;targa tops&quot;) like the&nbsp;<a href=\"https://www.caranddriver.com/reviews/a15097184/2017-mazda-mx-5-miata-rf-first-drive-review/\" target=\"_blank\">Mazda MX-5 Miata RF</a>,&nbsp;<a href=\"https://www.caranddriver.com/reviews/a15094238/2018-porsche-911-targa-4-gts-first-drive-review/\" target=\"_blank\">Porsche 911 Targa</a>&nbsp;and Corvette; only the forward section of their roofs retracts or can be removed by hand.</p>"
+    }
+},
+{
+    "model": "cars.category",
+    "pk": 6,
+    "fields": {
+        "name": "SUV",
+        "description": "<p>SUVs&mdash;often also referred to as crossovers&mdash;tend to be taller and boxier than sedans, offer an elevated seating position, and have more ground clearance than a car. They include a station wagon-like cargo area that is accessed through a flip-up rear hatch door, and many offer all-wheel drive. The larger ones have three rows of seats. Sizes start at subcompact (<a href=\"https://www.caranddriver.com/hyundai/kona\" target=\"_blank\">Hyundai Kona</a>,<a href=\"https://www.caranddriver.com/nissan/kicks\" target=\"_blank\">&nbsp;Nissan Kicks</a>), mid-size, and go all the way to full-size (<a href=\"https://www.caranddriver.com/ford/expedition-expedition-max\" target=\"_blank\">Ford Expedition</a>,&nbsp;<a href=\"https://www.caranddriver.com/chevrolet/tahoe\" target=\"_blank\">Chevrolet Tahoe</a>). Luxury brands offer many SUV models in most of the same size categories.</p>"
+    }
+},
+{
+    "model": "cars.brand",
+    "pk": 1,
+    "fields": {
+        "name": "Ferrari",
+        "description": "<p>Ferrari S.p.A. is an Italian luxury sports car manufacturer based in Maranello, Italy. Founded by Enzo Ferrari in 1939 out of the Alfa Romeo race division as Auto Avio Costruzioni, the company built its first car in 1940, and produced its first Ferrari-badged car in 1947</p>"
+    }
+},
+{
+    "model": "cars.brand",
+    "pk": 2,
+    "fields": {
+        "name": "Ford",
+        "description": "<p>The Ford Motor Company, commonly known as Ford, is an American multinational automaker that has its main headquarters in Dearborn, Michigan, a suburb of Detroit. It was founded by Henry Ford and incorporated on June 16, 1903</p>"
+    }
+},
+{
+    "model": "cars.brand",
+    "pk": 3,
+    "fields": {
+        "name": "Toyota",
+        "description": "<p>The Toyota Motor Corporation is a Japanese multinational automotive manufacturer headquartered in Toyota, Aichi, Japan. It was founded by Kiichiro Toyoda and incorporated on August 28, 1937.</p>"
+    }
+},
+{
+    "model": "cars.brand",
+    "pk": 4,
+    "fields": {
+        "name": "Jaguar",
+        "description": "<p><strong>Jaguar</strong>&nbsp;first appeared in September 1935 as a model name on an SS 2&frac12;-litre sports saloon. A matching open two seater sports model with a 3&frac12;-litre engine was named SS&nbsp;<strong>Jaguar</strong>&nbsp;100. On 23 March 1945 the S. S. Cars shareholders in general meeting agreed to change the company&#39;s name to&nbsp;<strong>Jaguar</strong>&nbsp;Cars Limited.</p>"
+    }
+},
+{
+    "model": "cars.brand",
+    "pk": 5,
+    "fields": {
+        "name": "BMW",
+        "description": "<p>Hello BMW</p>"
+    }
+},
+{
+    "model": "cars.brand",
+    "pk": 6,
+    "fields": {
+        "name": "Porsche",
+        "description": "<p><strong>Dr.-Ing. h.c. F. Porsche AG</strong>, usually shortened to&nbsp;<strong>Porsche AG</strong>&nbsp;(<small>German pronunciation:&nbsp;</small><a href=\"https://en.wikipedia.org/wiki/Help:IPA/Standard_German\" title=\"Help:IPA/Standard German\">[\u02c8p\u0254\u0250\u032f\u0283\u0259]</a>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/File:De-Porsche.ogg\" title=\"About this sound\"><img alt=\"About this sound\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png\" style=\"height:11px; width:11px\" /></a><a href=\"https://upload.wikimedia.org/wikipedia/commons/c/cc/De-Porsche.ogg\" title=\"De-Porsche.ogg\">listen</a>)<small>; see&nbsp;<a href=\"https://en.wikipedia.org/wiki/Porsche#Pronunciation\">below</a></small>), is a German automobile manufacturer specializing in high-performance&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports cars</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/SUVs\" title=\"SUVs\">SUVs</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sedans\" title=\"Sedans\">sedans</a>. The headquarters of Porsche AG is in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Stuttgart\" title=\"\">Stuttgart</a>, and the company is owned by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Volkswagen_Group\" title=\"Stuttgart\">Volkswagen AG</a>, a controlling stake of which is owned by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Porsche_Automobil_Holding_SE\" title=\"Porsche Automobil Holding SE\">Porsche Automobil Holding SE</a>. Porsche&#39;s current lineup includes the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Porsche_Boxster/Cayman\" title=\"Porsche Boxster/Cayman\">718 Boxster/Cayman</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Porsche_992\" title=\"Porsche 992\">911</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Porsche_Panamera\" title=\"Porsche Panamera\">Panamera</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Porsche_Macan\" title=\"\">Macan</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Porsche_Cayenne\" title=\"Porsche Cayenne\">Cayenne</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Porsche_Taycan\" title=\"Porsche Taycan\">Taycan</a>.</p>"
+    }
+},
+{
+    "model": "accounts.package",
+    "pk": 1,
+    "fields": {
+        "name": "Free",
+        "price": 0,
+        "cars": 1
+    }
+},
+{
+    "model": "accounts.package",
+    "pk": 2,
+    "fields": {
+        "name": "Bronze",
+        "price": 5000,
+        "cars": 2
+    }
+},
+{
+    "model": "accounts.package",
+    "pk": 3,
+    "fields": {
+        "name": "Silver",
+        "price": 10000,
+        "cars": 4
+    }
+},
+{
+    "model": "accounts.package",
+    "pk": 5,
+    "fields": {
+        "name": "Platinum",
+        "price": 50000,
+        "cars": 20
+    }
+},
+{
+    "model": "accounts.package",
+    "pk": 7,
+    "fields": {
+        "name": "Gold",
+        "price": 20000,
+        "cars": 10
+    }
+},
+{
+    "model": "auth.group",
+    "fields": {
+        "name": "Staff",
+        "permissions": [
+            [
+                "add_category",
+                "accounts",
+                "category"
+            ],
+            [
+                "change_category",
+                "accounts",
+                "category"
+            ],
+            [
+                "view_category",
+                "accounts",
+                "category"
+            ],
+            [
+                "view_cuspack",
+                "accounts",
+                "cuspack"
+            ],
+            [
+                "add_package",
+                "accounts",
+                "package"
+            ],
+            [
+                "change_package",
+                "accounts",
+                "package"
+            ],
+            [
+                "delete_package",
+                "accounts",
+                "package"
+            ],
+            [
+                "view_package",
+                "accounts",
+                "package"
+            ],
+            [
+                "view_packageorder",
+                "accounts",
+                "packageorder"
+            ],
+            [
+                "add_brand",
+                "cars",
+                "brand"
+            ],
+            [
+                "change_brand",
+                "cars",
+                "brand"
+            ],
+            [
+                "view_brand",
+                "cars",
+                "brand"
+            ],
+            [
+                "add_car",
+                "cars",
+                "car"
+            ],
+            [
+                "change_car",
+                "cars",
+                "car"
+            ],
+            [
+                "delete_car",
+                "cars",
+                "car"
+            ],
+            [
+                "view_car",
+                "cars",
+                "car"
+            ],
+            [
+                "add_cars",
+                "cars",
+                "cars"
+            ],
+            [
+                "change_cars",
+                "cars",
+                "cars"
+            ],
+            [
+                "delete_cars",
+                "cars",
+                "cars"
+            ],
+            [
+                "view_cars",
+                "cars",
+                "cars"
+            ],
+            [
+                "add_category",
+                "cars",
+                "category"
+            ],
+            [
+                "change_category",
+                "cars",
+                "category"
+            ],
+            [
+                "view_category",
+                "cars",
+                "category"
+            ],
+            [
+                "view_contact",
+                "contacts",
+                "contact"
+            ],
+            [
+                "view_feedback",
+                "pages",
+                "feedback"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$OEpEKag0dcJy$NLuZ00qH+KDHcpWQWiEyj3OwfZbuDC5trcMS0Ljle28=",
+        "last_login": "2021-04-11T01:29:36.490Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-04-01T16:19:25.384Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$4TDuT7uAAf9a$78BqSxkhptDkdBNvuubb/bYIlfkCocTlyepbpi9v2Z0=",
+        "last_login": "2021-07-12T14:08:26.134Z",
+        "is_superuser": false,
+        "username": "amalraju7",
+        "first_name": "Amal",
+        "last_name": "Raju",
+        "email": "amalraju443@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-04-02T12:56:38Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$qePSSWlsm7Wi$5LCIuih7lJE7cPL5xF7zm5ClkiZf0OIh8KZKPx2+fSE=",
+        "last_login": "2021-04-04T17:28:32.699Z",
+        "is_superuser": false,
+        "username": "akshay",
+        "first_name": "Akshay",
+        "last_name": "Baby",
+        "email": "antosalu007@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-04-04T16:44:06Z",
+        "groups": [
+            [
+                "Staff"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$CLfMRILClppp$lKjjvx8tgKKhCX0XbWRh12TiK61swiyVQz1w7ns5pmI=",
+        "last_login": "2021-07-11T15:33:14.675Z",
+        "is_superuser": false,
+        "username": "ashwin",
+        "first_name": "Ashwin",
+        "last_name": "Raju",
+        "email": "ashwin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-04-07T07:55:47Z",
+        "groups": [
+            [
+                "Staff"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$Ynx6hwQgi8Dm$9/LTf+RiE90CvbTza91wC6dM3XfcXA98fMJFfL8MOi8=",
+        "last_login": "2021-04-08T03:50:48Z",
+        "is_superuser": false,
+        "username": "arjun",
+        "first_name": "Arjun",
+        "last_name": "Rajesh",
+        "email": "arjun@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-04-08T03:50:47Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$5ncNYk0BwuFQ$TKGBaSY24sBv1pjV5fWR0LmacYad0rUScK8HvhWtDrg=",
+        "last_login": "2021-07-12T16:49:20.348Z",
+        "is_superuser": true,
+        "username": "sngra",
+        "first_name": "",
+        "last_name": "",
+        "email": "sngra@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-07-09T14:23:05.300Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$PypqJEBRDPTQ$cNzuoT1iiQ4xLZN4gyZQjPrcymFTf7I8oQH6P8133gU=",
+        "last_login": "2021-07-12T17:06:52.615Z",
+        "is_superuser": false,
+        "username": "akash",
+        "first_name": "Akash",
+        "last_name": "Rejith",
+        "email": "akash@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-07-11T16:34:19.932Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2g50aw8qx6fj9ata7tyqu5sqjaasiv1r",
+    "fields": {
+        "session_data": "OGU3MDliYTgwYzZhZGRkNTE2NTc1NTkwYTNjYjIyNDVlN2Y0OGZlZjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2NzFhZWE2YzlmODUyYTVhNzliNDQwYzBlOTYyYWViZDc2MDA3MTM0In0=",
+        "expire_date": "2021-04-19T02:22:51.888Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2gbkw4yy0zujfjvjsjjfd99s5s7vl7m3",
+    "fields": {
+        "session_data": "Y2M1MjFiNTU1ZTBjYTU0ZDA2YWQ4YWY4YjE2OGU2NzZmNDY0N2Q4NDp7Il9hdXRoX3VzZXJfaWQiOiIxMyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiYTU1MzYxMWMxYzM0OWE1OTE2NGNjYjMxYTNmMjM5NDc4NWNmZjQyZSJ9",
+        "expire_date": "2021-04-25T01:29:20.100Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8glnn4lpb9g0om8osrufh72fyunngamk",
+    "fields": {
+        "session_data": "MWMwNDE4MjdiZjEyN2VmMzA3M2ExNjFhMGM4ZjQ0OTg5MzhjN2JjNTp7Il9hdXRoX3VzZXJfaWQiOiIxNyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiYjNkYTA1ZmZkZGRiNDc1NjQ3MjE1OWNkOWE1YTBhMTYzODhiODBjYiJ9",
+        "expire_date": "2021-07-26T17:06:52.616Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8z6r6x2ra6ix69r8o616bomooigz19o8",
+    "fields": {
+        "session_data": "Y2M1MjFiNTU1ZTBjYTU0ZDA2YWQ4YWY4YjE2OGU2NzZmNDY0N2Q4NDp7Il9hdXRoX3VzZXJfaWQiOiIxMyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiYTU1MzYxMWMxYzM0OWE1OTE2NGNjYjMxYTNmMjM5NDc4NWNmZjQyZSJ9",
+        "expire_date": "2021-04-25T09:28:45.601Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "y7hndiqlsnbj2kadf2rb5acqae0hrzhj",
+    "fields": {
+        "session_data": "OGVlMzkyZTU4MmNjYzU4ODdjOTAzYjQ2MDlkOTk0YWE3MTVkZWM0Zjp7Il9hdXRoX3VzZXJfaWQiOiI4IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4YTBmMWU4ZDc4ODU5OGNmOTg4YWFmZGU5MmRkYjgxMmU3YWYzYjIxIn0=",
+        "expire_date": "2021-04-16T01:46:38.310Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zix9b3s18452fwuv3ngho3tm8tjtjjaj",
+    "fields": {
+        "session_data": "OGU3MDliYTgwYzZhZGRkNTE2NTc1NTkwYTNjYjIyNDVlN2Y0OGZlZjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2NzFhZWE2YzlmODUyYTVhNzliNDQwYzBlOTYyYWViZDc2MDA3MTM0In0=",
+        "expire_date": "2021-04-19T02:22:51.359Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook login",
+        "client_id": "306601731144543",
+        "secret": "a13218036ba98826b3b8e3b3fcb5484b",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-04-02T01:10:00.190Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "package"
+        ],
+        "object_id": "1",
+        "object_repr": "Package object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-04-02T01:10:16.475Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "package"
+        ],
+        "object_id": "2",
+        "object_repr": "Package object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-04-02T01:10:31.425Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "package"
+        ],
+        "object_id": "3",
+        "object_repr": "Package object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-04-02T01:10:58.045Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "package"
+        ],
+        "object_id": "4",
+        "object_repr": "Package object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-04-02T01:30:46.078Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-04-02T01:31:32.195Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-04-02T01:40:28.365Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "amalraju7",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-04-02T01:43:17.444Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "amalraju7",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-04-02T01:43:47.672Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "amalraju7",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-04-02T01:44:34.092Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "amalraju7",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-04-02T01:46:34.563Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "7",
+        "object_repr": "amalraju7",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-04-02T12:56:20.161Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "8",
+        "object_repr": "amalraju7",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-04-02T13:15:40.282Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "brand"
+        ],
+        "object_id": "1",
+        "object_repr": "Ferrari",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-04-02T13:16:01.142Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "brand"
+        ],
+        "object_id": "2",
+        "object_repr": "Ford",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-04-02T13:16:23.201Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "brand"
+        ],
+        "object_id": "3",
+        "object_repr": "Toyota",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-04-02T13:17:02.406Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "brand"
+        ],
+        "object_id": "4",
+        "object_repr": "Jaguar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-04-02T13:18:09.347Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "Sedan/Saloon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-04-02T13:18:26.337Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "Coupe",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-04-02T13:18:45.206Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "Sports",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-04-02T13:19:01.079Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "category"
+        ],
+        "object_id": "4",
+        "object_repr": "Hatchback",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-04-02T13:19:30.693Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "category"
+        ],
+        "object_id": "5",
+        "object_repr": "Convertible",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-04-02T13:19:43.304Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "category"
+        ],
+        "object_id": "6",
+        "object_repr": "SUV",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-04-02T13:21:45.480Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "1",
+        "object_repr": "Cars object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-04-04T04:17:10.616Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "4",
+        "object_repr": "Cars object (4)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-04-04T04:17:10.627Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "3",
+        "object_repr": "Cars object (3)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-04-04T04:17:10.628Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "2",
+        "object_repr": "Cars object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-04-04T04:20:18.046Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "5",
+        "object_repr": "Cars object (5)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-04-04T04:23:17.397Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "6",
+        "object_repr": "Cars object (6)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-04-04T04:24:37.982Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "7",
+        "object_repr": "Cars object (7)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-04-04T04:25:58.504Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "8",
+        "object_repr": "Cars object (8)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2021-04-04T04:39:09.536Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "9",
+        "object_repr": "Cars object (9)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2021-04-04T04:50:14.308Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "12",
+        "object_repr": "Cars object (12)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2021-04-04T04:50:14.313Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "11",
+        "object_repr": "Cars object (11)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2021-04-04T04:50:14.313Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "10",
+        "object_repr": "Cars object (10)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2021-04-04T06:53:54.764Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "14",
+        "object_repr": "Cars object (14)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2021-04-04T06:53:54.768Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "13",
+        "object_repr": "Cars object (13)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.922Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "35",
+        "object_repr": "Cars object (35)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.927Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "34",
+        "object_repr": "Cars object (34)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.927Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "33",
+        "object_repr": "Cars object (33)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.928Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "32",
+        "object_repr": "Cars object (32)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.929Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "31",
+        "object_repr": "Cars object (31)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.930Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "30",
+        "object_repr": "Cars object (30)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.930Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "29",
+        "object_repr": "Cars object (29)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.931Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "28",
+        "object_repr": "Cars object (28)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.931Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "27",
+        "object_repr": "Cars object (27)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.932Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "26",
+        "object_repr": "Cars object (26)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.933Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "25",
+        "object_repr": "Cars object (25)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.933Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "24",
+        "object_repr": "Cars object (24)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.934Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "23",
+        "object_repr": "Cars object (23)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.934Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "22",
+        "object_repr": "Cars object (22)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.935Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "21",
+        "object_repr": "Cars object (21)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.936Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "20",
+        "object_repr": "Cars object (20)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.936Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "19",
+        "object_repr": "Cars object (19)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.937Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "18",
+        "object_repr": "Cars object (18)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.937Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "17",
+        "object_repr": "Cars object (17)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.938Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "16",
+        "object_repr": "Cars object (16)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2021-04-04T07:48:55.938Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "15",
+        "object_repr": "Cars object (15)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2021-04-04T09:52:47.883Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "37",
+        "object_repr": "Cars object (37)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2021-04-04T10:31:18.377Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "cuspack"
+        ],
+        "object_id": "1",
+        "object_repr": "Cuspack object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2021-04-04T10:58:16.956Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "cuspack"
+        ],
+        "object_id": "2",
+        "object_repr": "Cuspack object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2021-04-04T10:58:16.961Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "cuspack"
+        ],
+        "object_id": "1",
+        "object_repr": "Cuspack object (1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2021-04-04T11:00:08.601Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "cuspack"
+        ],
+        "object_id": "3",
+        "object_repr": "Cuspack object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2021-04-04T11:00:13.243Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "cuspack"
+        ],
+        "object_id": "4",
+        "object_repr": "Cuspack object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2021-04-04T11:00:16.114Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "cuspack"
+        ],
+        "object_id": "5",
+        "object_repr": "Cuspack object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2021-04-04T14:00:08.935Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "cuspack"
+        ],
+        "object_id": "3",
+        "object_repr": "Cuspack object (3)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2021-04-04T14:06:31.755Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "cuspack"
+        ],
+        "object_id": "6",
+        "object_repr": "Cuspack object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2021-04-04T14:24:10.783Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "9",
+        "object_repr": "amalraju7",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2021-04-04T16:30:14.383Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "amalraju443@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Ruser id\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2021-04-04T16:34:57.557Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "object_id": "1",
+        "object_repr": "Staff",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2021-04-04T16:41:43.390Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "10",
+        "object_repr": "akshay",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2021-04-04T16:43:55.145Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "11",
+        "object_repr": "akshay",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2021-04-04T16:44:39.864Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "12",
+        "object_repr": "akshay",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2021-04-04T16:45:42.097Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "12",
+        "object_repr": "akshay",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2021-04-04T16:46:45.493Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "12",
+        "object_repr": "akshay",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2021-04-04T17:07:49.898Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "46",
+        "object_repr": "Cars object (46)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2021-04-04T17:07:49.902Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "42",
+        "object_repr": "Cars object (42)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2021-04-04T17:07:49.904Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "41",
+        "object_repr": "Cars object (41)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2021-04-04T17:07:49.906Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "36",
+        "object_repr": "Cars object (36)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2021-04-04T17:40:28.689Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "9",
+        "object_repr": "amalraju7",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2021-04-06T11:00:21.116Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "amal",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2021-04-07T10:03:19.442Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "3",
+        "object_repr": "amalraju443@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2021-04-08T03:06:37.500Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "41",
+        "object_repr": "Cars object (41)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car title\", \"Brand\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2021-04-08T03:07:22.116Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "36",
+        "object_repr": "Cars object (36)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Brand\", \"Year\", \"Condition\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2021-04-08T03:18:52.426Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "13",
+        "object_repr": "ashwin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2021-04-08T04:42:58.929Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "accounts",
+            "package"
+        ],
+        "object_id": "5",
+        "object_repr": "Platinum",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2021-04-08T04:44:34.087Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "brand"
+        ],
+        "object_id": "5",
+        "object_repr": "BMW",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2021-04-08T04:45:39.628Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "14",
+        "object_repr": "arjun",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2021-07-10T14:27:32.159Z",
+        "user": [
+            "sngra"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "9",
+        "object_repr": "amalraju7",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2021-07-11T14:47:43.608Z",
+        "user": [
+            "sngra"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "13",
+        "object_repr": "ashwin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2021-07-11T14:54:06.342Z",
+        "user": [
+            "sngra"
+        ],
+        "content_type": [
+            "accounts",
+            "package"
+        ],
+        "object_id": "6",
+        "object_repr": "Gold",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2021-07-11T14:54:29.966Z",
+        "user": [
+            "sngra"
+        ],
+        "content_type": [
+            "accounts",
+            "package"
+        ],
+        "object_id": "4",
+        "object_repr": "Gold",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2021-07-11T14:54:58.992Z",
+        "user": [
+            "sngra"
+        ],
+        "content_type": [
+            "accounts",
+            "package"
+        ],
+        "object_id": "6",
+        "object_repr": "Gold",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2021-07-11T14:59:15.240Z",
+        "user": [
+            "sngra"
+        ],
+        "content_type": [
+            "accounts",
+            "package"
+        ],
+        "object_id": "7",
+        "object_repr": "Gold",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2021-07-11T16:33:14.437Z",
+        "user": [
+            "sngra"
+        ],
+        "content_type": [
+            "cars",
+            "cars"
+        ],
+        "object_id": "51",
+        "object_repr": "Cars object (51)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2021-07-11T16:33:31.380Z",
+        "user": [
+            "sngra"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "16",
+        "object_repr": "akashrejith",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2021-07-12T14:42:25.311Z",
+        "user": [
+            "sngra"
+        ],
+        "content_type": [
+            "cars",
+            "brand"
+        ],
+        "object_id": "6",
+        "object_repr": "Porsche",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Amal",
+        "last_name": "Raju",
+        "car_id": 36,
+        "customer_need": "I'd like to know your best price for this",
+        "car_title": "2017 Ford Edge",
+        "city": "Peruva",
+        "state": "Kerala",
+        "email": "amalraju443@gmail.com",
+        "phone": "07907071717",
+        "message": "",
+        "user_id": 1,
+        "ruser_id": [
+            "amalraju7"
+        ],
+        "create_date": "2021-04-04T20:07:30Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Amal",
+        "last_name": "Raju",
+        "car_id": 1,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "Ferrari 488",
+        "city": "Peruva",
+        "state": "Kerala",
+        "email": "amalraju443@gmail.com",
+        "phone": "07907071717",
+        "message": "",
+        "user_id": 1,
+        "ruser_id": [
+            "admin"
+        ],
+        "create_date": "2021-04-04T21:06:29.616Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "Amal",
+        "last_name": "Raju",
+        "car_id": 36,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ford Edge",
+        "city": "Peruva",
+        "state": "Kerala",
+        "email": "amalraju443@gmail.com",
+        "phone": "07907071717",
+        "message": "Hello ",
+        "user_id": 13,
+        "ruser_id": [
+            "admin"
+        ],
+        "create_date": "2021-04-07T15:35:26.940Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 5,
+    "fields": {
+        "first_name": "Akshay",
+        "last_name": "Baby",
+        "car_id": 48,
+        "customer_need": "I'd like a history report for this",
+        "car_title": "Ferrari F8",
+        "city": "Peruva",
+        "state": "Kerala",
+        "email": "akshaybaby@gmail.com",
+        "phone": "8281189011",
+        "message": "",
+        "user_id": 1,
+        "ruser_id": [
+            "ashwin"
+        ],
+        "create_date": "2021-04-07T15:37:41.313Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 6,
+    "fields": {
+        "first_name": "Ashwin",
+        "last_name": "Raju",
+        "car_id": 50,
+        "customer_need": "I'm interested in this",
+        "car_title": "Jaguar XF",
+        "city": "Piravom",
+        "state": "Kerala",
+        "email": "ashwin@gmail.com",
+        "phone": "9447231511",
+        "message": "message",
+        "user_id": 13,
+        "ruser_id": [
+            "amalraju7"
+        ],
+        "create_date": "2021-04-08T10:25:26.530Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 7,
+    "fields": {
+        "first_name": "Akash",
+        "last_name": "Rejith",
+        "car_id": 50,
+        "customer_need": "I'm interested in this",
+        "car_title": "Jaguar XF",
+        "city": "Peruva",
+        "state": "Kerala",
+        "email": "akash@gmail.com",
+        "phone": "8545689522",
+        "message": "Hello",
+        "user_id": 17,
+        "ruser_id": [
+            "amalraju7"
+        ],
+        "create_date": "2021-07-11T22:13:48.194Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 8,
+    "fields": {
+        "first_name": "Arun",
+        "last_name": "Boby",
+        "car_id": 50,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "Jaguar XF",
+        "city": "Piravom",
+        "state": "Kerala",
+        "email": "arunboby@gmail.com",
+        "phone": "8577766685",
+        "message": "Hello Test",
+        "user_id": 0,
+        "ruser_id": [
+            "amalraju7"
+        ],
+        "create_date": "2021-07-11T22:18:07.822Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 9,
+    "fields": {
+        "first_name": "Amal",
+        "last_name": "R",
+        "car_id": 53,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "911 Turbo",
+        "city": "kottayam",
+        "state": "kerala",
+        "email": "sngra@gmail.com",
+        "phone": "7975824521",
+        "message": "",
+        "user_id": 15,
+        "ruser_id": [
+            "akash"
+        ],
+        "create_date": "2021-07-12T22:35:45.048Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 10,
+    "fields": {
+        "first_name": "Amal",
+        "last_name": "Raju",
+        "car_id": 52,
+        "customer_need": "I'm interested in this",
+        "car_title": "I Pace",
+        "city": "kochi",
+        "state": "Kerala",
+        "email": "sngra@gmail.com",
+        "phone": "7848542158",
+        "message": "Ready to buy",
+        "user_id": 15,
+        "ruser_id": [
+            "akash"
+        ],
+        "create_date": "2021-07-12T22:36:29.008Z"
+    }
+},
+{
+    "model": "accounts.packageorder",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "amalraju7"
+        ],
+        "package": 3,
+        "price": 10000,
+        "status": "successfull",
+        "date": "2021-04-02"
+    }
+},
+{
+    "model": "accounts.packageorder",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "package": 2,
+        "price": 5000,
+        "status": "successfull",
+        "date": "2021-04-04"
+    }
+},
+{
+    "model": "accounts.packageorder",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "package": 2,
+        "price": 5000,
+        "status": "successfull",
+        "date": "2021-04-04"
+    }
+},
+{
+    "model": "accounts.packageorder",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "amalraju7"
+        ],
+        "package": 2,
+        "price": 5000,
+        "status": "successfull",
+        "date": "2021-04-08"
+    }
+},
+{
+    "model": "accounts.packageorder",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "akash"
+        ],
+        "package": 5,
+        "price": 50000,
+        "status": "successfull",
+        "date": "2021-07-12"
+    }
+},
+{
+    "model": "accounts.card",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "amalraju7"
+        ],
+        "name": "M N Raju",
+        "number": "5757 5585 8757 8887",
+        "expiry": "12/23"
+    }
+},
+{
+    "model": "accounts.card",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "name": "M N Raju",
+        "number": "4544 5484 8184 8484",
+        "expiry": "11/21"
+    }
+},
+{
+    "model": "accounts.card",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "name": "M N Raju",
+        "number": "5484 4484 4654 5454",
+        "expiry": "12/25"
+    }
+},
+{
+    "model": "accounts.card",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "name": "M N Raju",
+        "number": "2166 5545 4548 5848",
+        "expiry": "12/23"
+    }
+},
+{
+    "model": "accounts.card",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "amalraju7"
+        ],
+        "name": "Amal Raju",
+        "number": "5445 4845 4841 4748",
+        "expiry": "12/23"
+    }
+},
+{
+    "model": "accounts.card",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "akash"
+        ],
+        "name": "Amal Raju",
+        "number": "4654 5565 4654 6545",
+        "expiry": "04/22"
+    }
+},
+{
+    "model": "accounts.cuspack",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "amalraju7"
+        ],
+        "no_of_cars": 1,
+        "total_cars": 3
+    }
+},
+{
+    "model": "accounts.cuspack",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "no_of_cars": 0,
+        "total_cars": 9
+    }
+},
+{
+    "model": "accounts.cuspack",
+    "pk": 7,
+    "fields": {
+        "user": [
+            "akshay"
+        ],
+        "no_of_cars": 0,
+        "total_cars": 1
+    }
+},
+{
+    "model": "accounts.cuspack",
+    "pk": 8,
+    "fields": {
+        "user": [
+            "ashwin"
+        ],
+        "no_of_cars": 1,
+        "total_cars": 1
+    }
+},
+{
+    "model": "accounts.cuspack",
+    "pk": 9,
+    "fields": {
+        "user": [
+            "arjun"
+        ],
+        "no_of_cars": 1,
+        "total_cars": 1
+    }
+},
+{
+    "model": "accounts.cuspack",
+    "pk": 11,
+    "fields": {
+        "user": [
+            "akash"
+        ],
+        "no_of_cars": 2,
+        "total_cars": 21
+    }
+},
+{
+    "model": "pages.feedback",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "subject": "Good",
+        "feedback": "improvable",
+        "date": "2021-04-05"
+    }
+},
+{
+    "model": "pages.feedback",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "amalraju7"
+        ],
+        "subject": "Goode",
+        "feedback": "Nycccc",
+        "date": "2021-04-05"
+    }
+},
+{
+    "model": "pages.feedback",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "subject": "Wonderfull",
+        "feedback": "Wonderfull experience",
+        "date": "2021-04-08"
+    }
+},
+{
+    "model": "pages.feedback",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "ashwin"
+        ],
+        "subject": "Good",
+        "feedback": "",
+        "date": "2021-07-11"
+    }
+},
+{
+    "model": "pages.feedback",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "ashwin"
+        ],
+        "subject": "Good",
+        "feedback": "Excellent",
+        "date": "2021-07-11"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "car_title": "Ferrari 488",
+        "state": "Kerala",
+        "district": "Kottayam",
+        "city": "Peruva",
+        "brand": 1,
+        "category": 2,
+        "color": "White",
+        "model": "488 GTB",
+        "year": 2019,
+        "condition": "Perfect",
+        "price": 10000000,
+        "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>.</p>\r\n\r\n<p>The car is powered by a 3.9-litre&nbsp;<a href=\"https://en.wikipedia.org/wiki/Twin-turbocharged\" title=\"Twin-turbocharged\">twin-turbocharged</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/V8_engine\" title=\"V8 engine\">V8 engine</a>, smaller in displacement but generating a higher power output than the 458&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Naturally_aspirated_engine\" title=\"Naturally aspirated engine\">naturally aspirated engine</a>. The 488 GTB was named &quot;The Supercar of the Year 2015&quot; by car magazine&nbsp;<a href=\"https://en.wikipedia.org/wiki/Top_Gear_(magazine)\" title=\"Top Gear (magazine)\"><em>Top Gear</em></a>, as well as becoming&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Motor_Trend\" title=\"Motor Trend\">Motor Trend</a></em>&#39;s 2017 &quot;Best Driver&#39;s Car&quot;.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\">[7]</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jeremy_Clarkson\" title=\"Jeremy Clarkson\">Jeremy Clarkson</a>&nbsp;announced the 488 Pista as his 2019 Supercar of the Year.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-8\">[8]</a>&nbsp;The 488 was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8_Tributo\" title=\"Ferrari F8 Tributo\">F8 Tributo</a>&nbsp;in February 2019.</p>",
+        "car_photo": "photos/2021/04/02/1902536891.jpg",
+        "car_photo_1": "photos/2021/04/02/1902536917.jpg",
+        "car_photo_2": "photos/2021/04/02/1902537043.jpg",
+        "car_photo_3": "photos/2021/04/02/1902537077.jpg",
+        "car_photo_4": "photos/2021/04/02/1902537082.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Seat Heating,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Bluetooth Handset",
+        "engine": "4000 cc",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "km_driven": 5000,
+        "doors": "3",
+        "passengers": 2,
+        "mileage": 3,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-04-02"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 36,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "car_title": "2017 Ford Edge",
+        "state": "Kerala",
+        "district": "Ernakulam",
+        "city": "Peruva",
+        "brand": 2,
+        "category": 1,
+        "color": "Silver",
+        "model": "4Runner",
+        "year": 2018,
+        "condition": "Good",
+        "price": 45545,
+        "description": "<p>dfsdsfds</p>",
+        "car_photo": "photos/2021/04/04/1893633875_Hsljuzm.jpg",
+        "car_photo_1": "photos/2021/04/04/1893633879_3u2AlUR.jpg",
+        "car_photo_2": "photos/2021/04/04/1893633884_8Bzb8BC.jpg",
+        "car_photo_3": "photos/2021/04/04/1896836883_vI5TeRn.jpg",
+        "car_photo_4": "photos/2021/04/04/1896836887_ADBlmXP.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning",
+        "engine": "4000 cc",
+        "transmission": "Manual",
+        "interior": "Black",
+        "km_driven": 545,
+        "doors": "5",
+        "passengers": 45,
+        "mileage": 5,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-04-04"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 41,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "car_title": "Ford Edge",
+        "state": "Kerala",
+        "district": "Ernakulam",
+        "city": "Kaloor",
+        "brand": 2,
+        "category": 1,
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Good",
+        "price": 5000000,
+        "description": "<p><span style=\"background-color:#ffffff; color:#202122\">The&nbsp;</span><strong>Ford Edge</strong><span style=\"background-color:#ffffff; color:#202122\">&nbsp;is a range of&nbsp;</span><a href=\"https://en.wikipedia.org/wiki/Crossover_(automobile)\" style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Crossover (automobile)\">crossover SUVs</a><span style=\"background-color:#ffffff; color:#202122\">&nbsp;manufactured by the&nbsp;</span><a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Ford Motor Company\">Ford Motor Company</a><span style=\"background-color:#ffffff; color:#202122\">. Introduced for the 2007 model year, the Edge is the first&nbsp;</span><a class=\"mw-redirect\" href=\"https://en.wikipedia.org/wiki/Mid-size_CUV\" style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Mid-size CUV\">mid-size CUV</a><span style=\"background-color:#ffffff; color:#202122\">&nbsp;marketed by Ford in North America; the model line is currently in its second generation. Deriving its name from a trim package of the&nbsp;</span><a href=\"https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)\" style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Ford Ranger (Americas)\">Ford Ranger</a><span style=\"background-color:#ffffff; color:#202122\">, the Ford Edge is slotted between the&nbsp;</span><a href=\"https://en.wikipedia.org/wiki/Ford_Escape\" style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Ford Escape\">Ford Escape</a><span style=\"background-color:#ffffff; color:#202122\">&nbsp;and the&nbsp;</span><a href=\"https://en.wikipedia.org/wiki/Ford_Explorer\" style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Ford Explorer\">Ford Explorer</a><span style=\"background-color:#ffffff; color:#202122\">&nbsp;within the Ford product line.</span></p>",
+        "car_photo": "photos/2021/04/04/1901478607_hYuv9kp.jpg",
+        "car_photo_1": "photos/2021/04/04/1901478618_H6a6qQ9.jpg",
+        "car_photo_2": "photos/2021/04/04/1901478646_qezuhWt.jpg",
+        "car_photo_3": "photos/2021/04/04/1901478672_hLqgKcD.jpg",
+        "car_photo_4": "photos/2021/04/04/1901478687_wKhGf1n.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "engine": "4000 cc",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "km_driven": 5000,
+        "doors": "4",
+        "passengers": 5,
+        "mileage": 10,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2021-04-04"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 42,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "car_title": "Corola",
+        "state": "Kerala",
+        "district": "Ernakulam",
+        "city": "Ernakulam",
+        "brand": 3,
+        "category": 1,
+        "color": "White",
+        "model": "ZE",
+        "year": 2016,
+        "condition": "Good",
+        "price": 500000,
+        "description": "<p><strong style=\"color: #202124; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">Toyota</strong><span style=\"color: #202124; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">&nbsp;makes the&nbsp;</span><strong style=\"color: #202124; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">2021 Corolla</strong><span style=\"color: #202124; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">&nbsp;sedan in five trim levels: L, LE, SE, XLE, and XSE. The L, LE, and XLE come with a 1.8-liter four-cylinder engine and a continuously variable automatic transmission (CVT). SE and XSE trims have a 2.0-liter inline-four engine and a choice of the CVT or a six-speed manual transmission.</span></p>",
+        "car_photo": "photos/2021/04/04/1900893299_rbd2aTe.jpg",
+        "car_photo_1": "photos/2021/04/04/1900893311_ph2QfQZ.jpg",
+        "car_photo_2": "photos/2021/04/04/1900893319_bmFDkH1.jpg",
+        "car_photo_3": "photos/2021/04/04/1900893329_sVjsMl2.jpg",
+        "car_photo_4": "photos/2021/04/04/1900893391_sbff8PW.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Seat Heating,Reversing Camera,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "engine": "1300 cc",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "km_driven": 5000,
+        "doors": "5",
+        "passengers": 4,
+        "mileage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-04-04"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 46,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "car_title": "Jaguar F-PACE",
+        "state": "Kerala",
+        "district": "Kottayam",
+        "city": "Thalayolaparmbu",
+        "brand": 4,
+        "category": 6,
+        "color": "Green",
+        "model": "F-PACE",
+        "year": 2019,
+        "condition": "Perfect",
+        "price": 8000000,
+        "description": "<p><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">The&nbsp;</span><strong style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">Jaguar F-Pace</strong><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;(X761) is a compact SUV made by&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Jaguar Land Rover\" href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\">Jaguar Land Rover</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">, a British&nbsp;</span><a class=\"mw-redirect\" style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Automaker\" href=\"https://en.wikipedia.org/wiki/Automaker\">car manufacturer</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">, under their&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Jaguar Cars\" href=\"https://en.wikipedia.org/wiki/Jaguar_Cars\">Jaguar marque</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">. It is the first model to be built by Jaguar in the SUV class. It was formally announced at the&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"North American International Auto Show\" href=\"https://en.wikipedia.org/wiki/North_American_International_Auto_Show#2015\">2015 North American International Auto Show</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"International Motor Show Germany\" href=\"https://en.wikipedia.org/wiki/International_Motor_Show_Germany#2015\">International Motor Show Germany</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;in Frankfurt in September 2015.</span><sup id=\"cite_ref-4\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px; color: #202122; font-family: sans-serif; background-color: #ffffff;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-4\">[4]</a></sup><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;The design of the F-Pace is based on the 2013&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Jaguar C-X17\" href=\"https://en.wikipedia.org/wiki/Jaguar_C-X17\">Jaguar C-X17</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;concept car.</span><sup id=\"cite_ref-BBC_News_120115_5-0\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px; color: #202122; font-family: sans-serif; background-color: #ffffff;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-BBC_News_120115-5\">[5]</a></sup><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;The 2017 Jaguar F-PACE has been named the honorary winner of the 2017 World Car of the Year and World Car Design of the Year Awards at the&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"New York International Auto Show\" href=\"https://en.wikipedia.org/wiki/New_York_International_Auto_Show\">New York International Auto Show</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">.</span><sup id=\"cite_ref-6\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px; color: #202122; font-family: sans-serif; background-color: #ffffff;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-6\">[6]</a></sup></p>",
+        "car_photo": "photos/2021/04/04/1902932503_tv1kd1H.jpg",
+        "car_photo_1": "photos/2021/04/04/1902932514_AMEkQ3a.jpg",
+        "car_photo_2": "photos/2021/04/04/1902932528_C2uymCb.jpg",
+        "car_photo_3": "photos/2021/04/04/1902932542_z68bD4J.jpg",
+        "car_photo_4": "photos/2021/04/04/1896836883_lMoS1tU.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Bluetooth Handset",
+        "engine": "3400 cc",
+        "transmission": "Manual",
+        "interior": "White",
+        "km_driven": 50000,
+        "doors": "4",
+        "passengers": 5,
+        "mileage": 12,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-04-04"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 48,
+    "fields": {
+        "user": [
+            "ashwin"
+        ],
+        "car_title": "Ferrari F8",
+        "state": "Tamil Nadu",
+        "district": "Coimbatore",
+        "city": "Coimbatore",
+        "brand": 1,
+        "category": 3,
+        "color": "Red",
+        "model": "F8",
+        "year": 2020,
+        "condition": "Perfect",
+        "price": 20000000,
+        "description": "<p><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">The F8 Tributo uses the same engine from the&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Ferrari 488\" href=\"https://en.wikipedia.org/wiki/Ferrari_488#488_Pista\">488 Pista</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">, a 3.9&nbsp;L&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Twin-turbo\" href=\"https://en.wikipedia.org/wiki/Twin-turbo\">twin-turbocharged</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"V8 engine\" href=\"https://en.wikipedia.org/wiki/V8_engine\">V8 engine</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;which has a power output of 720&nbsp;PS (530&nbsp;kW; 710&nbsp;hp) and 770&nbsp;N&sdot;m (568&nbsp;lb&sdot;ft) of torque,</span><sup id=\"cite_ref-6\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px; color: #202122; font-family: sans-serif; background-color: #ffffff;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Ferrari_F8#cite_note-6\">[6]</a></sup><sup id=\"cite_ref-a_7-0\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px; color: #202122; font-family: sans-serif; background-color: #ffffff;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Ferrari_F8#cite_note-a-7\">[7]</a></sup><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;making it the most powerful conventional V8-powered Ferrari produced to date.</span><sup id=\"cite_ref-c_2-3\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px; color: #202122; font-family: sans-serif; background-color: #ffffff;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Ferrari_F8#cite_note-c-2\">[2]</a></sup><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;Specific intake plenums and manifolds with optimised fluid-dynamics improve the combustion efficiency of the engine, thanks to the reduction of the temperature of the air in the cylinder, which also helps boost power. The increase in performance is provided in a more reactive way thanks to lightening solutions on the rotating masses, such as the F1 derived titanium connecting rods. The exhaust layout and the Inconel manifolds have been completely modified up to the terminals. The F8 Tributo also uses turbo rev sensors, developed in the 488 Challenge, to maximise the efficiency of the turbochargers based on the demand for power from the pedal. The transmission is a 7-speed dual clutch automatic unit with improved gear ratios.</span><sup id=\"cite_ref-a_7-1\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px; color: #202122; font-family: sans-serif; background-color: #ffffff;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Ferrari_F8#cite_note-a-7\">[7]</a></sup></p>",
+        "car_photo": "photos/2021/04/07/2020-Ferrari-F8-Tributo.jpg",
+        "car_photo_1": "photos/2021/04/07/maxresdefault.jpg",
+        "car_photo_2": "photos/2021/04/07/584300.jpg",
+        "car_photo_3": "photos/2021/04/07/evoindia_2019-10_8eb78bba-f455-459e-af1b-5d44f1f60f08_Ferrari_F8_Tribu_Ai29yNS.jpg",
+        "car_photo_4": "photos/2021/04/07/aec0d30bbc3764d3be840d02f135547d.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "engine": "3.9 L V8",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "km_driven": 2000,
+        "doors": "3",
+        "passengers": 2,
+        "mileage": 3,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": false,
+        "created_date": "2021-04-07"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 50,
+    "fields": {
+        "user": [
+            "amalraju7"
+        ],
+        "car_title": "Jaguar XF",
+        "state": "Kerala",
+        "district": "Kottayam",
+        "city": "Peruva",
+        "brand": 1,
+        "category": 1,
+        "color": "Red",
+        "model": "XF",
+        "year": 2020,
+        "condition": "Good",
+        "price": 5000000,
+        "description": "<p>Jaguar</p>",
+        "car_photo": "photos/2021/04/08/dde317a9b5a57bd615a81bef7d0658bf_Uzn5zQw.jpg",
+        "car_photo_1": "photos/2021/04/08/dde317a9b5a57bd615a81bef7d0658bf_1_MUFXbF1.jpg",
+        "car_photo_2": "photos/2021/04/08/55477d8777b6f7fab2d7b988ffcaec34_sJQtin9.jpg",
+        "car_photo_3": "photos/2021/04/08/7ea8fc46c5471d7d34bb788eb9d4f532_9QMuXrt.jpg",
+        "car_photo_4": "photos/2021/04/08/55477d8777b6f7fab2d7b988ffcaec34_8JgkF3h.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating",
+        "engine": "5000 cc",
+        "transmission": "Manual",
+        "interior": "Black",
+        "km_driven": 2000,
+        "doors": "5",
+        "passengers": 5,
+        "mileage": 5,
+        "fuel_type": "Diesel",
+        "no_of_owners": "2",
+        "is_featured": false,
+        "created_date": "2021-04-08"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 52,
+    "fields": {
+        "user": [
+            "akash"
+        ],
+        "car_title": "I Pace",
+        "state": "Kerala",
+        "district": "Kottayam",
+        "city": "Peruva",
+        "brand": 4,
+        "category": 6,
+        "color": "Silver",
+        "model": "XS",
+        "year": 2019,
+        "condition": "Perfect",
+        "price": 2000000,
+        "description": "<p style=\"margin: 0.5em 0px; color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">The&nbsp;<strong>Jaguar I-Pace</strong>&nbsp;(stylised as \"I-PACE\") is a&nbsp;<a style=\"text-decoration-line: none; color: #0645ad; background: none;\" title=\"Battery electric vehicle\" href=\"https://en.wikipedia.org/wiki/Battery_electric_vehicle\">battery-electric</a>&nbsp;<a style=\"text-decoration-line: none; color: #0645ad; background: none;\" title=\"Crossover (automobile)\" href=\"https://en.wikipedia.org/wiki/Crossover_(automobile)\">crossover SUV</a>&nbsp;produced by&nbsp;<a style=\"text-decoration-line: none; color: #0645ad; background: none;\" title=\"Jaguar Land Rover\" href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\">Jaguar Land Rover</a>&nbsp;(JLR), the British subsidiary of the Indian automotive company&nbsp;<a style=\"text-decoration-line: none; color: #0645ad; background: none;\" title=\"Tata Motors\" href=\"https://en.wikipedia.org/wiki/Tata_Motors\">Tata</a>, under their&nbsp;<a style=\"text-decoration-line: none; color: #0645ad; background: none;\" title=\"Jaguar Cars\" href=\"https://en.wikipedia.org/wiki/Jaguar_Cars\">Jaguar</a>&nbsp;marque. The I-Pace was announced in March 2018, European deliveries began in June 2018, North American deliveries started in October 2018, and Indian deliveries began in March 2021. As of May 28, 2021, the 2021 model year I-Pace has not been brought to the United States, despite having been introduced in Europe nearly one year ago.<sup id=\"cite_ref-brochure_1-0\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Jaguar_I-Pace#cite_note-brochure-1\">[1]</a></sup><sup id=\"cite_ref-2\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Jaguar_I-Pace#cite_note-2\">[2]</a></sup><sup id=\"cite_ref-3\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Jaguar_I-Pace#cite_note-3\">[3]</a></sup></p>\r\n<p style=\"margin: 0.5em 0px; color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">The I-Pace is the first electric SUV from a premium European automaker. In its first year, the I-Pace became one of the most highly decorated production cars ever, winning 62<sup id=\"cite_ref-4\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Jaguar_I-Pace#cite_note-4\">[4]</a></sup>&nbsp;international awards. In March 2019, the I-Pace won the&nbsp;<a style=\"text-decoration-line: none; color: #0645ad; background: none;\" title=\"European Car of the Year\" href=\"https://en.wikipedia.org/wiki/European_Car_of_the_Year\">European Car of the Year</a>&nbsp;award, the first Jaguar to win in the 50-year history of the award.<sup id=\"cite_ref-5\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Jaguar_I-Pace#cite_note-5\">[5]</a></sup>&nbsp;In April 2019, the I-Pace became the 2019&nbsp;<a style=\"text-decoration-line: none; color: #0645ad; background: none;\" title=\"\" href=\"https://en.wikipedia.org/wiki/World_Car_of_the_Year\">World Car of the Year</a>, and by also winning Best Design and Best Green Car awards, it became the first car to ever sweep three of the six categories.<sup id=\"cite_ref-cnbc.com_6-0\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Jaguar_I-Pace#cite_note-cnbc.com-6\">[6]</a></sup></p>",
+        "car_photo": "photos/2021/07/11/745adea34d292988b8f8e1b1113684ae_9RF3bFX.jpg",
+        "car_photo_1": "photos/2021/07/11/2019_jaguar_i-pace_89_QR8RViK.jpg",
+        "car_photo_2": "photos/2021/07/11/2019_jaguar_i-pace_138_qojnfgE.jpg",
+        "car_photo_3": "photos/2021/07/11/Jaguar_I-PACE_S_Indus-Silver_065_DCLuqvT.jpg",
+        "car_photo_4": "photos/2021/07/11/unnamed_6nZN3eK.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector",
+        "engine": "1356cc",
+        "transmission": "Manual",
+        "interior": "Black",
+        "km_driven": 3000,
+        "doors": "5",
+        "passengers": 5,
+        "mileage": 5,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": false,
+        "created_date": "2021-07-11"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 53,
+    "fields": {
+        "user": [
+            "akash"
+        ],
+        "car_title": "911 Turbo",
+        "state": "Kerala",
+        "district": "Kottayam",
+        "city": "Thalayolaparambu",
+        "brand": 6,
+        "category": 2,
+        "color": "Blue",
+        "model": "Turbo",
+        "year": 2018,
+        "condition": "Good",
+        "price": 8000000,
+        "description": "<p><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">The&nbsp;</span><strong style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">Porsche 911</strong><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;(pronounced&nbsp;</span><em style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">Nine Eleven</em><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;or in&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"German language\" href=\"https://en.wikipedia.org/wiki/German_language\">German</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">:&nbsp;</span><em lang=\"de\" style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">Neunelfer</em><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">) is a two-door&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"2+2 (car body style)\" href=\"https://en.wikipedia.org/wiki/2%2B2_(car_body_style)\">2+2</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;high performance&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Rear-engine design\" href=\"https://en.wikipedia.org/wiki/Rear-engine_design\">rear-engined</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Sports car\" href=\"https://en.wikipedia.org/wiki/Sports_car\">sports car</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;introduced in September 1964 by&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Porsche\" href=\"https://en.wikipedia.org/wiki/Porsche\">Porsche AG</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;of&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Stuttgart\" href=\"https://en.wikipedia.org/wiki/Stuttgart\">Stuttgart</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">, Germany. It has a&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Rear-engine design\" href=\"https://en.wikipedia.org/wiki/Rear-engine_design\">rear-mounted</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"\" href=\"https://en.wikipedia.org/wiki/Flat-six_engine\">flat-six engine</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;and a&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Torsion bar suspension\" href=\"https://en.wikipedia.org/wiki/Torsion_bar_suspension\">torsion bar suspension.</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;The car has been continuously enhanced through the years but the basic concept has remained unchanged.</span><sup id=\"cite_ref-Twelve_1-0\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px; color: #202122; font-family: sans-serif; background-color: #ffffff;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://en.wikipedia.org/wiki/Porsche_911#cite_note-Twelve-1\">[1]</a></sup><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;The engines were&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Air-cooled engine\" href=\"https://en.wikipedia.org/wiki/Air-cooled_engine\">air-cooled</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;until the introduction of the&nbsp;</span><a style=\"text-decoration-line: none; color: #0645ad; background: none #ffffff; font-family: sans-serif; font-size: 14px;\" title=\"Porsche 996\" href=\"https://en.wikipedia.org/wiki/Porsche_996\">996 series</a><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">&nbsp;in 1998</span></p>",
+        "car_photo": "photos/2021/07/12/porsche-911-turbo-s--20_800x0w.jpg",
+        "car_photo_1": "photos/2021/07/12/2021_porsche_911_turbo_s_172.jpg",
+        "car_photo_2": "photos/2021/07/12/Nogaro-Blue-911.jpg",
+        "car_photo_3": "photos/2021/07/12/porsche-911-turbo-s--29.jpg",
+        "car_photo_4": "photos/2021/07/12/club-blue-911-turbo-s-1-1080x570.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "engine": "5000cc",
+        "transmission": "Manual",
+        "interior": "Black",
+        "km_driven": 2000,
+        "doors": "3",
+        "passengers": 2,
+        "mileage": 5,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": false,
+        "created_date": "2021-07-12"
+    }
+}
+]

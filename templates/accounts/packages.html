@@ -1,0 +1,51 @@
+
+
+
+{% extends 'base.html' %}
+
+{% block title %} | Login {% endblock %}
+{% block content %}
+{% load static %}
+
+<div class="sub-banner overview-bgi">
+    <div class="container breadcrumb-area">
+        <div class="breadcrumb-areas">
+            <h1>Packages</h1>
+            <ul class="breadcrumbs">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li class="active">Packages</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="contact-2 content-area-5">
+<div class="container">
+   <h1 class="service-heading">Service box</h1>
+   <div class="row">
+
+{% for package in packages %}
+  {% if package.name != 'Free' %}
+       <div class="col-md-3 col-sm-6">
+           <div class="service-box ">
+               <div class="service-icon red">
+                   <div class="front-content">
+                       <i class="fa fa-trophy"></i>
+                       <h3>{{ package.name }}</h3>
+                   </div>
+               </div>
+               <div class="service-content">
+                   <h3>{{ package.name }}</h3>
+                   <p> More Car Slots : {{ package.cars }}  <br> Price: {{ package.price }}
+                  <br><a href="{% url 'card' package.id %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Purchase</a>  </p>
+
+               </div>
+           </div>
+       </div>
+       {% endif %}
+{% endfor %}
+   </div>
+</div>
+</div>
+
+{% endblock %}

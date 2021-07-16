@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %} | Login {% endblock %}
+{% block content %}
+{% load static %}
+
+
+<div class="sub-banner overview-bgi">
+    <div class="container breadcrumb-area">
+        <div class="breadcrumb-areas">
+            <h1>Login To Your Account</h1>
+            <ul class="breadcrumbs">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li class="active">Login</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- Contact section start -->
+<div class="contact-section">
+  <div class="container table-responsive py-5">
+<table class="table table-bordered table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Date</th>
+      <th scope="col">Cars</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    {% for re in res %}
+    <tr>
+      <th scope="row">{{i}}</th>
+      <td>{{re.created_date}}</td>
+  <td>{{re.dcount}}</td>
+    </tr>
+    {% endfor %}
+
+  </tbody>
+</table>
+</div>
+
+</div>
+<!-- Contact section end -->
+
+{% endblock %}

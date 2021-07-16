@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block title %} | Login {% endblock %}
+{% block content %}
+{% load static %}
+{% load socialaccount %}
+{% providers_media_js %}
+
+<div class="sub-banner overview-bgi">
+    <div class="container breadcrumb-area">
+        <div class="breadcrumb-areas">
+            <h1>Report</h1>
+            <ul class="breadcrumbs">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li class="active">Report</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- Contact section start -->
+<div class="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="form-section">
+                    <div class="logo-2">
+                        <a href="index.html">
+                            <img src="{% static 'img/logos/black-logo.png' %}" alt="logo">
+                        </a>
+                    </div>
+
+                    {% include 'includes/messages.html' %}
+                    <form action="{% url 'report' %}" method="POST">
+                      {% csrf_token %}
+                        <div class="form-group form-box">
+                            <input type="date" name="from" class="input-text" placeholder="Username" required>
+                            <i class="flaticon-mail"></i>
+                        </div>
+                        <div class="form-group form-box">
+                            <input type="date" name="to" class="input-text" placeholder="Password" required>
+                            <i class="flaticon-lock"></i>
+                        </div>
+                          <div class="form-group form-box">
+                        <select class="input-text" class="" name="type">
+                          <option value="purchase">Order Report</option>
+                          <option value="car">Car Report</option>
+                          <option value="user">User Report</option>
+                        </select>
+
+                          </div>
+                        <div class="form-group mb-0 clearfix">
+                            <button type="submit" class="btn-md btn-theme float-left">Generate</button>
+                        </div>
+                        <div class="extra-login clearfix">
+
+                        </div>
+                        <div class="clearfix"></div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact section end -->
+
+{% endblock %}
